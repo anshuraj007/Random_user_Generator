@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15%;
+        }
+
+        .spinning {
+            display: block;
+        }
+         img{
+            height: 100px;
+            width: 85px;
+         }
+         body{
+            background-color: cadetblue;
+         }
+         span{
+
+            color: #b8aaaa;
+         }
+         strong{
+            color: red;
+         }
+    </style>
+</head>
+
+<body>
+    <div id="user">
+          <div class="card" style="width: 18rem;">
+            <img src="https://randomuser.me/api/portraits/men/98.jpg" id="image" class="mx-auto" alt="..."style="border-radius: 50%; margin-top:8px;">
+            <hr>
+            <div id="parent" class="card-body">
+                <h5  class="card-title"><span>Name:</span> Niklas Niva</h5>
+                <h5  class="card-title"><span>Age:</span> 46</h5>
+                <h5  class="card-title"><span>Gender:</span> Male</h5>
+                <h5 class="card-title"><span>Phone Number:</span> (222)-145-9997</h5>
+                <h5  class="card-title"><span>Location:</span> Erzincan, Turkey</h5>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button" id="userGenerate">
+                        Generate User
+                    </button>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
